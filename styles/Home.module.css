@@ -1,9 +1,9 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  padding: 2rem;
+  /* padding: 1rem; */
 }
 
 .header {
@@ -64,7 +64,7 @@
   resize: none;
   font-size: 1.1rem;
   padding: 1rem 2rem 1rem 2rem;
-  width: 75vw;
+  width: 50vw;
   border-radius: 0.5rem;
   border: 1px solid #30373d;
   background: #070809;
@@ -214,7 +214,7 @@
 }
 
 .cloud {
-  width: 75vw;
+  width: 50vw;
   height: 65vh;
   background: #070809;
   border-radius: 0.5rem;
