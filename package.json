@@ -6,7 +6,9 @@
     "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "node": "node server.js"
+
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -14,6 +16,7 @@
     "@mui/material": "^5.11.4",
     "@next/font": "13.1.1",
     "@types/react": "^18.2.64",
+    "express": "^4.18.3",
     "langchain": "^0.1.25",
     "mongodb": "^6.4.0",
     "next": "13.1.1",
@@ -28,6 +31,7 @@
     "ws": "^8.16.0"
   },
   "devDependencies": {
+    "@types/express": "^4",
     "@types/node-schedule": "^2",
     "@types/ws": "^8"
   }
