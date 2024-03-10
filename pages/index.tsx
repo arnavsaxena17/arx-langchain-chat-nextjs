@@ -1,14 +1,12 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import TopBar from '../components/TopBar';
-
 import MessageWindow from '../components/MessageWindow'; // Ensure this is the correct path
-
-import styles from '../styles/Home.module.css';
-
+import { startSchedulingAgent } from '@/services/scheduler/schedulingAgent';
 interface Message {
   message: string;
   type: 'apiMessage' | 'userMessage';
 }
+startSchedulingAgent();
 
 export default function Home() {
  

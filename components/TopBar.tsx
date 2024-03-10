@@ -7,19 +7,18 @@ export default function TopBar() {
     return (
         <>
         <Head>
-            <title>LangChain Chat</title>
-            <meta name="description" content="LangChain documentation chatbot" />
+            <title>Arx Chat</title>
+            <meta name="description" content="Arxena recruitment chatbot" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />
-        </Head><div className={styles.topnav}>
-        <div className={styles.navlogo}>
-            <a href="/">LangChain</a>
-        </div>
-        <div className={styles.navlinks}>
-            <a href="https://langchain.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">Docs</a>
-            <a href="https://github.com/zahidkhawaja/langchain-chat-nextjs" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
-            
+        </Head>
+        <div className={styles.topnav}>
+            <div className={styles.navlogo}>
+                <a href="/">ArxChat</a>
+            </div>
+            <div className={styles.navlinks}>
+                <a href="https://localhost:5050/" target="_blank" rel="noopener noreferrer">Arxena Site</a>
+            </div>
         </div>
         </>
     );

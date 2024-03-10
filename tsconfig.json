@@ -17,7 +17,11 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": ".", // This must be specified if "paths" is set.
+    "paths": {
+      "@/*": ["*"] // Correctly map all files using @/ prefix.
+    },
   },
   "include": [
     "next-env.d.ts",
